@@ -207,7 +207,9 @@ if st.button("💾 儲存航線"):
 st.divider()
 st.subheader("📦 已儲存航線（完整資訊）")
 
-routes = config["my_routes"]
+config = load_config()
+
+routes = config.get("my_routes", [])
 
 updated_routes = []
 
@@ -219,21 +221,19 @@ for r in routes:
         "routes": refreshed
     })
 
-routes = updated_routes
+config["my_routes"] = updated_routes
+save_config(config)
+
 
 # =========================
 # 🚢 顯示區
 # =========================
-for i, r in enumerate(routes):
+for i, r in enumerate(updated_routes):
 
     with st.container(border=True):
 
-        # 🚢 船名
         st.markdown(f"## 🚢 {r['vessel']} - {ships.get(r['vessel'])}")
 
-        # =========================
-        # 🚢 航線內容（完整顯示）
-        # =========================
         for p in r["routes"]:
 
             with st.container(border=True):
@@ -248,26 +248,32 @@ for i, r in enumerate(routes):
                     st.success("⭐ CURRENT POSITION")
 
         # =========================
-        # 🔧 操作按鈕（移到最下面）
+        # 操作（這裡才會真的生效）
         # =========================
-
         col1, col2, col3 = st.columns(3)
 
         with col1:
             if st.button("🗑 刪除", key=f"del_{i}"):
-                routes.pop(i)
+
+                config["my_routes"].pop(i)
                 save_config(config)
                 st.rerun()
 
         with col2:
             if i > 0 and st.button("⬆ 上移", key=f"up_{i}"):
-                routes[i], routes[i-1] = routes[i-1], routes[i]
+
+                config["my_routes"][i], config["my_routes"][i-1] = \
+                    config["my_routes"][i-1], config["my_routes"][i]
+
                 save_config(config)
                 st.rerun()
 
         with col3:
-            if i < len(routes)-1 and st.button("⬇ 下移", key=f"down_{i}"):
-                routes[i], routes[i+1] = routes[i+1], routes[i]
+            if i < len(config["my_routes"]) - 1 and st.button("⬇ 下移", key=f"down_{i}"):
+
+                config["my_routes"][i], config["my_routes"][i+1] = \
+                    config["my_routes"][i+1], config["my_routes"][i]
+
                 save_config(config)
                 st.rerun()
 # =========================

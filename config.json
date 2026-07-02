@@ -154,28 +154,6 @@
   },
   "my_routes": [
     {
-      "vessel": "YCST",
-      "vessel_name": "永明輪 YM CONSTANCY",
-      "name": "My Route",
-      "routes": [
-        {
-          "seq": 3,
-          "portName": "KAOHSIUNG",
-          "portCode": "TWKHH",
-          "terminal": "KAOHSIUNG TERMINAL NO.1-#63/#64",
-          "arrivalDate": "2026/06/29 20:30",
-          "arrivalStatus": "Actual",
-          "berthDate": "2026/06/29 20:40",
-          "berthStatus": "Actual",
-          "departureDate": "2026/06/30 01:52",
-          "departureStatus": "Actual",
-          "addional": "N",
-          "noLoading": "N",
-          "lastPosition": false
-        }
-      ]
-    },
-    {
       "vessel": "YCDL",
       "vessel_name": "聚明輪 YM CREDENTIAL",
       "name": "My Route",
@@ -198,20 +176,20 @@
       ]
     },
     {
-      "vessel": "YCNL",
-      "vessel_name": "百明輪 YM  CENTENNIAL",
+      "vessel": "YCST",
+      "vessel_name": "永明輪 YM CONSTANCY",
       "name": "My Route",
       "routes": [
         {
-          "seq": 6,
-          "portName": "JAKARTA",
-          "portCode": "IDJKT",
-          "terminal": "New Priok Container Terminal One (NPCT1)",
-          "arrivalDate": "2026/06/22 18:55",
+          "seq": 3,
+          "portName": "KAOHSIUNG",
+          "portCode": "TWKHH",
+          "terminal": "KAOHSIUNG TERMINAL NO.1-#63/#64",
+          "arrivalDate": "2026/06/29 20:30",
           "arrivalStatus": "Actual",
-          "berthDate": "2026/06/22 20:00",
+          "berthDate": "2026/06/29 20:40",
           "berthStatus": "Actual",
-          "departureDate": "2026/06/24 13:20",
+          "departureDate": "2026/06/30 01:52",
           "departureStatus": "Actual",
           "addional": "N",
           "noLoading": "N",
@@ -220,20 +198,20 @@
       ]
     },
     {
-      "vessel": "YCRT",
-      "vessel_name": "好明輪 YM CERTAINTY",
+      "vessel": "YCNU",
+      "vessel_name": "存明輪 YM CONTINUITY",
       "name": "My Route",
       "routes": [
         {
-          "seq": 1,
-          "portName": "CAT LAI",
-          "portCode": "VNCLI",
-          "terminal": "CAT LAI TERMINAL",
-          "arrivalDate": "2026/06/25 16:00",
+          "seq": 3,
+          "portName": "KAOHSIUNG",
+          "portCode": "TWKHH",
+          "terminal": "KAOHSIUNG TERMINAL NO.6-#108/#109/#110/#111",
+          "arrivalDate": "2026/06/23 02:00",
           "arrivalStatus": "Actual",
-          "berthDate": "2026/06/25 21:00",
+          "berthDate": "2026/06/23 02:10",
           "berthStatus": "Actual",
-          "departureDate": "2026/06/27 01:30",
+          "departureDate": "2026/06/23 09:55",
           "departureStatus": "Actual",
           "addional": "N",
           "noLoading": "N",
