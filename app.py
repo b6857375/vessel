@@ -10,7 +10,7 @@ import json
 
 st.set_page_config(page_title="船舶航線系統   禎❤️翰", layout="wide")
 
-st.title("🚢 船舶航線管理系統")
+st.title("🚢 船舶航線管理系統  禎❤️翰")
 
 # session state（關鍵）
 # =========================
