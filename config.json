@@ -1,0 +1,261 @@
+{
+  "YCNT": {
+    "routes": [
+      {
+        "name": "My Route",
+        "routes": [
+          {
+            "seq": 9,
+            "portName": "INCHEON",
+            "portCode": "KRINC",
+            "terminal": "PSA Incheon Container Terminal",
+            "arrivalDate": "2026/07/11 05:00",
+            "arrivalStatus": "Estimated",
+            "berthDate": "2026/07/11 07:00",
+            "berthStatus": "Estimated",
+            "departureDate": "2026/07/11 18:00",
+            "departureStatus": "Estimated",
+            "addional": "N",
+            "noLoading": "N",
+            "lastPosition": false
+          }
+        ]
+      }
+    ]
+  },
+  "YCNL": {
+    "routes": [
+      {
+        "name": "My Route",
+        "routes": [
+          {
+            "seq": 7,
+            "portName": "SINGAPORE",
+            "portCode": "SGSIN",
+            "terminal": "PSA SINGAPORE",
+            "arrivalDate": "2026/06/28 15:50",
+            "arrivalStatus": "Actual",
+            "berthDate": "2026/06/28 17:45",
+            "berthStatus": "Actual",
+            "departureDate": "2026/06/29 10:25",
+            "departureStatus": "Actual",
+            "addional": "N",
+            "noLoading": "N",
+            "lastPosition": false
+          }
+        ]
+      },
+      {
+        "name": "My Route",
+        "routes": [
+          {
+            "seq": 8,
+            "portName": "PORT KLANG",
+            "portCode": "MYPKG",
+            "terminal": "WESTPORTS",
+            "arrivalDate": "2026/06/30 13:00",
+            "arrivalStatus": "Actual",
+            "berthDate": "2026/06/30 14:10",
+            "berthStatus": "Actual",
+            "departureDate": "2026/07/01 16:10",
+            "departureStatus": "Actual",
+            "addional": "N",
+            "noLoading": "N",
+            "lastPosition": true
+          }
+        ]
+      },
+      {
+        "name": "My Route",
+        "routes": [
+          {
+            "seq": 7,
+            "portName": "SINGAPORE",
+            "portCode": "SGSIN",
+            "terminal": "PSA SINGAPORE",
+            "arrivalDate": "2026/06/28 15:50",
+            "arrivalStatus": "Actual",
+            "berthDate": "2026/06/28 17:45",
+            "berthStatus": "Actual",
+            "departureDate": "2026/06/29 10:25",
+            "departureStatus": "Actual",
+            "addional": "N",
+            "noLoading": "N",
+            "lastPosition": false
+          },
+          {
+            "seq": 8,
+            "portName": "PORT KLANG",
+            "portCode": "MYPKG",
+            "terminal": "WESTPORTS",
+            "arrivalDate": "2026/06/30 13:00",
+            "arrivalStatus": "Actual",
+            "berthDate": "2026/06/30 14:10",
+            "berthStatus": "Actual",
+            "departureDate": "2026/07/01 16:10",
+            "departureStatus": "Actual",
+            "addional": "N",
+            "noLoading": "N",
+            "lastPosition": true
+          }
+        ]
+      }
+    ],
+    "updated_at": "2026-07-03T00:26:10.604416"
+  },
+  "YCBT": {
+    "routes": [
+      {
+        "name": "My Route",
+        "routes": [
+          {
+            "seq": 7,
+            "portName": "TAICHUNG",
+            "portCode": "TWTXG",
+            "terminal": "UNIGLORY MARINE CO. TAICHUNG CONTAINER TERMINAL",
+            "arrivalDate": "2026/07/06 00:30",
+            "arrivalStatus": "Estimated",
+            "berthDate": "2026/07/06 01:30",
+            "berthStatus": "Estimated",
+            "departureDate": "2026/07/06 16:00",
+            "departureStatus": "Estimated",
+            "addional": "N",
+            "noLoading": "N",
+            "lastPosition": false
+          }
+        ]
+      }
+    ]
+  },
+  "YCPT": {
+    "routes": [
+      {
+        "name": "My Route",
+        "routes": [
+          {
+            "seq": 1,
+            "portName": "SHANGHAI",
+            "portCode": "CNSHA",
+            "terminal": "WAI GAO QIAO NO.1",
+            "arrivalDate": "2026/06/26 19:00",
+            "arrivalStatus": "Actual",
+            "berthDate": "2026/06/27 21:30",
+            "berthStatus": "Actual",
+            "departureDate": "2026/06/28 11:00",
+            "departureStatus": "Actual",
+            "addional": "N",
+            "noLoading": "N",
+            "lastPosition": false
+          }
+        ]
+      }
+    ],
+    "updated_at": "2026-07-03T00:25:41.489588"
+  },
+  "my_routes": [
+    {
+      "vessel": "YCST",
+      "vessel_name": "永明輪 YM CONSTANCY",
+      "name": "My Route",
+      "routes": [
+        {
+          "seq": 3,
+          "portName": "KAOHSIUNG",
+          "portCode": "TWKHH",
+          "terminal": "KAOHSIUNG TERMINAL NO.1-#63/#64",
+          "arrivalDate": "2026/06/29 20:30",
+          "arrivalStatus": "Actual",
+          "berthDate": "2026/06/29 20:40",
+          "berthStatus": "Actual",
+          "departureDate": "2026/06/30 01:52",
+          "departureStatus": "Actual",
+          "addional": "N",
+          "noLoading": "N",
+          "lastPosition": false
+        }
+      ]
+    },
+    {
+      "vessel": "YCDL",
+      "vessel_name": "聚明輪 YM CREDENTIAL",
+      "name": "My Route",
+      "routes": [
+        {
+          "seq": 5,
+          "portName": "LAEM CHABANG",
+          "portCode": "THLCB",
+          "terminal": "KLN Seaport Limited",
+          "arrivalDate": "2026/07/08 21:30",
+          "arrivalStatus": "Estimated",
+          "berthDate": "2026/07/08 23:00",
+          "berthStatus": "Estimated",
+          "departureDate": "2026/07/10 04:30",
+          "departureStatus": "Estimated",
+          "addional": "N",
+          "noLoading": "N",
+          "lastPosition": false
+        }
+      ]
+    },
+    {
+      "vessel": "YCNL",
+      "vessel_name": "百明輪 YM  CENTENNIAL",
+      "name": "My Route",
+      "routes": [
+        {
+          "seq": 6,
+          "portName": "JAKARTA",
+          "portCode": "IDJKT",
+          "terminal": "New Priok Container Terminal One (NPCT1)",
+          "arrivalDate": "2026/06/22 18:55",
+          "arrivalStatus": "Actual",
+          "berthDate": "2026/06/22 20:00",
+          "berthStatus": "Actual",
+          "departureDate": "2026/06/24 13:20",
+          "departureStatus": "Actual",
+          "addional": "N",
+          "noLoading": "N",
+          "lastPosition": false
+        }
+      ]
+    },
+    {
+      "vessel": "YCRT",
+      "vessel_name": "好明輪 YM CERTAINTY",
+      "name": "My Route",
+      "routes": [
+        {
+          "seq": 1,
+          "portName": "CAT LAI",
+          "portCode": "VNCLI",
+          "terminal": "CAT LAI TERMINAL",
+          "arrivalDate": "2026/06/25 16:00",
+          "arrivalStatus": "Actual",
+          "berthDate": "2026/06/25 21:00",
+          "berthStatus": "Actual",
+          "departureDate": "2026/06/27 01:30",
+          "departureStatus": "Actual",
+          "addional": "N",
+          "noLoading": "N",
+          "lastPosition": false
+        }
+      ]
+    }
+  ],
+  "W333": {
+    "routes": [],
+    "updated_at": null
+  },
+  "YCRT": {
+    "routes": [],
+    "updated_at": null
+  },
+  "YCLI": {
+    "routes": [],
+    "updated_at": null
+  },
+  "YCNU": {
+    "routes": [],
+    "updated_at": null
+  }
+}
